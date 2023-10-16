@@ -1,0 +1,30 @@
+
+nav {
+    background-color: #2B2A2F;
+    position: fixed;
+  }
+  .navbar-brand{
+    color: #F77E17;
+  } .navbar-brand:hover{
+    color: #F77E17;
+    cursor: pointer;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+  }
+  .nav-item a:hover {
+    color: #F77E17;
+  }
+  /* Apply hover color when link is active */
+  .nav-item a.active:hover {
+    color: #F77E17;
+  }
+  .navbar-toggler{
+    color:white;
+  }
+  .navbar-toggler-icon {
+   background-color: #F77E17;
+ }
+  

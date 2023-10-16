@@ -1,0 +1,95 @@
+.container-fluid {
+    background-color: #27262B;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+.hr-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  hr {
+    flex: 1;
+    width: 50%;
+    border: none;
+    border-top: 2px solid #F77E17;
+    /* Adjust the HR properties as needed */
+    margin: 0 10px;
+    /* Adjust the margin to separate the circles from the hr */
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    /* Set the background to transparent */
+    border: 2px solid white;
+    /* Set the border color to white */
+    /* Adjust the circle color as needed */
+  }
+  
+
+.cont {
+ flex-direction: column;
+ margin-top: 20px;
+}
+
+.home-icon,.call-icon,.location-icons{
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+}.call-icon,.location-icons{
+margin: 40px 0;
+}
+ a{
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+    
+}
+a:hover ,address:hover{
+    color: #F77E17;
+}
+address{
+    padding: 10px;
+}
+.iconnn{
+    font-size: 60px;
+    padding: 5px;
+    border: 2px solid #F77E17;
+    border-radius: 6px;
+}
+.iconnn:hover{
+    color: #F77E17;
+}
+
+.iconss {
+    justify-content: end;
+    float: right;
+}
+.fb:hover,.ins:hover,.git:hover{
+    color: #F77E17;
+}
+.form{
+    margin-top: 10px;
+    padding: 20px;
+}
+.form input,textarea{
+   width: 100%;
+   padding: 10px;
+   margin: 20px 10px;
+   color: white;
+   background-color: transparent;
+}
+.btn{
+   background-color:  #F77E17;
+   color: white;
+    padding: 5px;
+    margin-left: 10px;
+}

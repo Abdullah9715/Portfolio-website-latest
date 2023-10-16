@@ -1,0 +1,20 @@
+.footer {
+    background-color: #27262B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.text1 {
+    justify-content: flex-start;
+    float: left;
+}
+
+.iconss {
+    justify-content: end;
+    float: right;
+}
+.fb:hover,.ins:hover,.git:hover{
+    color: #F77E17;
+}
